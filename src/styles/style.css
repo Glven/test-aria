@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+    font-family: 'Teko', sans-serif;
+    font-display: swap;
+}
+.container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+button {
+    cursor: pointer;
+    border: none
+}
+a {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 576px) and (max-width: 1399px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+@media screen and (max-width: 575px) {
+    html {
+        font-size: 10px;
+    }
+    .container {
+        padding: 0 16px;
+    }
+}

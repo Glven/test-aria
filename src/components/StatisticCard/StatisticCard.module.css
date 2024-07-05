@@ -1,0 +1,15 @@
+.statistic {
+    width: fit-content;
+}
+.statistic__title {
+    font-weight: 700;
+    font-size: 3.429rem;
+    line-height: 3.429rem;
+    text-transform: uppercase;
+}
+.statistic__subtitle {
+    font-size: 1.129rem;
+    line-height: 2rem;
+    color: rgba(242, 242, 242, 0.3);
+    text-transform: lowercase;
+}

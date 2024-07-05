@@ -1,0 +1,14 @@
+.primaryBtn {
+    background: linear-gradient(to right, rgba(124, 111, 207, 0.97), rgba(116, 174, 170, 0.95), #6FCF97);
+    border-radius: 16px;
+    padding: 10px;
+    max-width: 532px;
+    width: 100%;
+    border: none;
+    color: #1C1A1A;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 2rem;
+    font-family: 'Teko', sans-serif;
+    box-shadow: 0 0 150px rgba(165, 191, 180, 0.42);
+}
